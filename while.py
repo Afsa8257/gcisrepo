@@ -16,8 +16,16 @@ while k>=1:
     print(k)
     k -= 1 #same as i = i-1 (Decrementing)
 
-#Print squares of numbers from 1-10
+#Print cubes of numbers from 1-10
 x = 1
 while x<=10:
     print(x**3)
     x+=1
+
+#Program to display the 1st 5 natural numbers
+i = 1
+total = 0
+while i<=5:
+    total += i
+    i += 1
+print("Sum: ", total)
