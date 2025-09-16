@@ -8,7 +8,7 @@ while i<=10:
 j = 1
 while j<=10:
     print(j)
-    j+=2
+    j+=2 # '+=' is called shorthand operator 
 
 #Print numbers from 10-1 using while loop
 k = 10
@@ -27,5 +27,5 @@ i = 1
 total = 0
 while i<=5:
     total += i
-    i += 1
+    i += 1 
 print("Sum: ", total)
