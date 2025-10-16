@@ -23,16 +23,6 @@ def check_limit(borrowed):
         return "Over limit: Fine $10"
 
 
-    # Get input from the user and validate it
-    try:
-        borrowed_books = int(input("Enter the number of books borrowed: "))
-        result = check_limit(borrowed_books)
-        print(result)
-    except ValueError:
-        # Handles cases where the user doesn't enter a valid number
-        print("Error: Please enter a valid integer.")
-
-
 def process_borrowers(filename):
     """
     Read borrower records from a file and display their borrowing status.
